@@ -40,3 +40,48 @@ npm run start:prod
 
 # Normal çalıştırma (development)
 npm run start
+```
+
+
+# 🐝 Bee Backend
+
+Bee Backend is the server-side component of an e-commerce web application.  
+The project is developed using Node.js / TypeScript and NestJS.
+
+## Features
+
+- Product management (listing, adding, updating, deleting)
+- Order management
+- User authentication & authorization
+- API communication (REST)
+- Testing infrastructure (unit / e2e)
+- Development and production modes
+
+## Technologies
+
+- **NestJS** — modular, structured server-side architecture
+- **TypeScript** — static type checking
+- **Node.js**
+- **Express / HTTP** (via NestJS)
+- For testing: **Jest**, **Supertest** (if applicable)
+- Other helper packages: `class-validator`, `class-transformer`, etc.
+
+## Installation & Running
+
+```bash
+# Clone the project
+git clone https://github.com/enesekerr/bee-backend.git
+cd bee-backend
+
+# Install dependencies
+npm install
+
+# Development mode (hot reload)
+npm run start:dev
+
+# Production mode
+npm run build
+npm run start:prod
+
+# Normal run (development)
+npm run start
